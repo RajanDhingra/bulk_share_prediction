@@ -13,3 +13,7 @@ Data cleaning step involved detection and imputation of outlier’s value based 
 Furthermore, an ARIMA variable to factor in the effects of seasonality and trend was created which when used as an input variable boosted the model performance.
 
 Using this data 4 individual models and 2 ensemble models were built, as shown below. The best performing model was the Ensemble XGBoost regression tree. While other models focussed on reducing the Root mean square error, the final ensemble model was trained using an objective function of maximising profit.
+
+EDA, Preprocessing & Feature Engineering.R takes in day.csv as the input file
+
+ModellingPart.R takes in Data_Final.csv as the input file
